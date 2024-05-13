@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
   font-size: 62.5%;
@@ -183,71 +184,6 @@ nav ul li a:hover:after {
   left: 0;
   height: 100vh;
   width: 100%;
-}
-
-.container-home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: inherit;
-  left: 10%;
-  top: 30%;
-  width: 80%;
-}
-
-.container-home h1 {
-  margin-bottom: 2rem;
-  color: var(--second-color);
-  font-size: 3.5rem;
-  text-align: center;
-}
-
-.container-home p {
-  font-size: 1.6rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.img-container {
-  width: 60%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.img-container img {
-  border-radius: 50%;
-}
-
-/* button */
-
-.contact-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-  margin-left: 32%;
-  height: 5rem;
-  width: 14rem;
-  background-color: var(--metallic-color);
-  color: aliceblue;
-  border-radius: 0.5rem;
-  transition: background-color 0.3s ease;
-}
-
-.contact-button button {
-  background-color: transparent;
-  border: none;
-  padding: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.6rem;
-  cursor: pointer;
-}
-
-.contact-button button:hover {
-  color: aliceblue;
 }
 
 /*about*/
@@ -511,15 +447,6 @@ input[type="submit"]:hover {
   width: 50%;
 }
 
-.w-col {
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
 .button-wrapper-div {
   width: 100%;
   flex-wrap: nowrap;
@@ -545,146 +472,6 @@ input[type="submit"]:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
-}
-.button.general.left {
-  margin-left: 0;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  transition: box-shadow 0.4s;
-}
-
-.button.general {
-  width: 160px;
-  height: 42px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0);
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Roboto, sans-serif;
-  transition-property: box-shadow;
-}
-
-.left {
-  color: var(--vox-over-dark-blue);
-  text-align: left;
-  font-family: Roboto Mono, sans-serif;
-  font-weight: 300;
-}
-
-.button {
-  float: right;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background-color: #465cff;
-  border-radius: 3px;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 10px 24px;
-  font-size: 11px;
-  font-weight: 500;
-  transition: background-color 0.4s;
-  display: block;
-}
-
-.w-button {
-  color: #fff;
-  line-height: inherit;
-  cursor: pointer;
-  border: 0;
-  border-radius: 0;
-  padding: 9px 15px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.button.general.left.vox-over.empty {
-  width: auto;
-  border: 1.5px solid var(--white);
-  color: var(--white);
-  background-color: rgba(0, 0, 0, 0);
-  background-image: none;
-  font-weight: 400;
-}
-
-.button.general.left.vox-over {
-  width: auto;
-  height: 60px;
-  background-color: var(--white);
-  background-image: linear-gradient(
-    87deg,
-    var(--vox-over-light-orange),
-    var(--vox-over-peach-orange)
-  );
-  color: var(--vox-over-dark-blue);
-  letter-spacing: 1px;
-  border-radius: 5px;
-  margin-right: 0;
-  padding: 20px 36px 10px;
-  font-family: Roboto Mono, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 18px;
-}
-
-.button.general.left {
-  margin-left: 0;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  transition: box-shadow 0.4s;
-}
-
-.button.general {
-  width: 160px;
-  height: 42px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px #8b9de4;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Roboto, sans-serif;
-  transition-property: box-shadow;
-}
-
-.left {
-  color: var(--vox-over-dark-blue);
-  text-align: left;
-  font-family: Roboto Mono, sans-serif;
-  font-weight: 300;
-}
-
-.button {
-  float: right;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border-radius: 3px;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 10px 24px;
-  font-size: 11px;
-  font-weight: 500;
-  transition: background-color 0.4s;
-  display: block;
-}
-
-.w-button {
-  color: #fff;
-  line-height: inherit;
-  cursor: pointer;
-  border: 0;
-  border-radius: 0;
-  padding: 9px 15px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a {
-  text-decoration: underline;
-}
-
-a {
-  background-color: rgba(0, 0, 0, 0);
 }
 
 /*footer*/
@@ -760,26 +547,9 @@ a {
 }
 
 @media (max-width: 991px) {
-  .container-home h1 {
-    font-size: 2.5rem;
-  }
-
-  .text-container {
-    margin-top: -10%;
-  }
-
-  .container-home p {
-    font-size: 1.5rem;
-  }
-
-  .img-container img {
-    width: 80%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: 5rem;
-    margin-left: 0rem;
-    display: flex;
+  .home-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
   }
 
   .row-cta.center.vox-over {
@@ -878,14 +648,5 @@ a {
   .dropdown-menu {
     left: 2.5rem;
     width: unset;
-  }
-}
-
-@media (max-width: 576px) {
-  .container-home h1 {
-    font-size: 2.5rem;
-  }
-  .container-home p {
-    font-size: 1.5rem;
   }
 }
