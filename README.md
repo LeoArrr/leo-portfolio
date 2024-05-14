@@ -24,4 +24,4 @@ It is designed to bridge the gap between words and emotions, delivering high-qua
 
 - The website is responsive and adjusts its layout for different screen sizes.
 - JavaScript is used to implement scroll functionality for the header and toggle the dropdown menu for smaller screens.
-- The design focuses on a modern and professional aesthetic.
+- The design focuses on a modern aesthetic.
